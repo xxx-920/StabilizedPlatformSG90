@@ -32,6 +32,6 @@
 "..\output\bsp_usrt.o"
 "..\output\sg90_drive.o"
 --library_type=microlib --strict --scatter "..\Output\Project.sct"
---summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "..\Listing\Project.map" -o ..\Output\Project.axf

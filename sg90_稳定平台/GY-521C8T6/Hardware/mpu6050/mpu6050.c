@@ -266,7 +266,7 @@ void Read_DMP(void)
         // q.z = quat[3];
         Pitch = asin(-2 * q1 * q3 + 2 * q0* q2)* 57.3; 	
         Roll = atan2(2 * q2 * q3 + 2 * q0 * q1, -2 * q1 * q1 - 2 * q2* q2 + 1)* 57.3; // roll		 
-        Yaw = 	atan2(2*(q1*q2 + q0*q3),q0*q0+q1*q1-q2*q2-q3*q3) * 57.3;
+//        Yaw = 	atan2(2*(q1*q2 + q0*q3),q0*q0+q1*q1-q2*q2-q3*q3) * 57.3;
 
         // // 计算旋转矩阵的各个元素
         // float m00 = 2.0 * (q.w * q.w + q.x * q.x) - 1.0;
