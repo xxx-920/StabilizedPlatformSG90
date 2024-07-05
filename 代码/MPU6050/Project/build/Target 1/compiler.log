@@ -1,0 +1,10 @@
+>>> cc
+
+".\..\Hardware\oled\OLED.c", line 208: Warning:  #223-D: function "sprintf" declared implicitly
+  	sprintf(str,"%.1f   ",Number);
+  	^
+.\..\Hardware\oled\OLED.c: 1 warning, 0 errors
+
+>>> ld
+
+Program Size: Code=21808 RO-data=5256 RW-data=144 ZI-data=1040  

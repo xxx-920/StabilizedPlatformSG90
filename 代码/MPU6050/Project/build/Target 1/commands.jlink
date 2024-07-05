@@ -1,0 +1,6 @@
+r
+halt
+loadfile "c:\Project\03-SG90_稳定平台\代码\MPU6050\Project\build\Target 1\Project.hex"
+r
+go
+exit
